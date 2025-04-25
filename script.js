@@ -73,18 +73,16 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // 導航欄隱藏/顯示效果
         if (currentScroll > lastScrollTop && currentScroll > 100) {
-            // 向下滾动，隱藏導航欄
             navbar.style.transform = 'translateY(-100%)';
         } else {
-            // 向上滾動，顯示導航欄
             navbar.style.transform = 'translateY(0)';
         }
 
         // 更新透明度
         if (currentScroll > 100) {
-            navbar.style.backgroundColor = 'rgba(135, 100, 184, 0.95)';
+            navbar.style.backgroundColor = 'rgba(146, 168, 209, 0.95)';
         } else {
-            navbar.style.backgroundColor = 'rgba(135, 100, 184, 0.8)';
+            navbar.style.backgroundColor = 'rgba(146, 168, 209, 0.8)';
         }
 
         lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;

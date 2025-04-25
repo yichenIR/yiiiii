@@ -13,7 +13,7 @@ body {
 
 /* 導航欄樣式 */
 .navbar {
-    background-color: rgba(135, 100, 184, 0.95) !important;
+    background-color: rgba(146, 168, 209, 0.95) !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
 }
@@ -32,12 +32,12 @@ body {
 }
 
 .nav-link:hover {
-    color: #ffd1dc !important;
+    color: #F7CAC9 !important;
 }
 
 /* 首頁英雄區塊 */
 .hero-section {
-    background: linear-gradient(rgba(135, 100, 184, 0.7), rgba(255, 209, 220, 0.7)), url('https://via.placeholder.com/1920x1080');
+    background: linear-gradient(rgba(146, 168, 209, 0.7), rgba(247, 202, 201, 0.7)), url('https://via.placeholder.com/1920x1080');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -65,14 +65,14 @@ body {
 }
 
 .group-info h3 {
-    color: #8764b8;
+    color: #92A8D1;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
 .group-stats h4 {
     font-size: 2rem;
-    color: #8764b8;
+    color: #92A8D1;
     font-weight: bold;
 }
 
@@ -103,14 +103,14 @@ body {
 .member-info {
     padding: 20px;
     text-align: center;
-    background: linear-gradient(to bottom, #fff, #f8f4ff);
+    background: linear-gradient(to bottom, #fff, #f7f0f0);
 }
 
 .member-info h3 {
     margin: 0;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #8764b8;
+    color: #92A8D1;
 }
 
 .member-info p {
@@ -134,11 +134,11 @@ body {
 
 .album-info {
     padding: 20px;
-    background: linear-gradient(to bottom, #fff, #f8f4ff);
+    background: linear-gradient(to bottom, #fff, #f7f0f0);
 }
 
 .album-info h4 {
-    color: #8764b8;
+    color: #92A8D1;
     margin-bottom: 10px;
     font-weight: bold;
 }
@@ -172,11 +172,11 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     position: relative;
-    border-left: 4px solid #8764b8;
+    border-left: 4px solid #92A8D1;
 }
 
 .timeline-item .date {
-    color: #8764b8;
+    color: #92A8D1;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -189,7 +189,7 @@ body {
 
 /* Footer */
 footer {
-    background: #8764b8;
+    background: linear-gradient(45deg, #92A8D1, #F7CAC9);
     color: white;
 }
 
@@ -201,18 +201,18 @@ footer {
 }
 
 .social-links a:hover {
-    color: #ffd1dc;
+    color: #F7CAC9;
     transform: scale(1.2);
 }
 
 /* Swiper 導航按鈕樣式 */
 .swiper-button-next,
 .swiper-button-prev {
-    color: #8764b8 !important;
+    color: #92A8D1 !important;
 }
 
 .swiper-pagination-bullet-active {
-    background: #8764b8 !important;
+    background: #92A8D1 !important;
 }
 
 /* 動畫效果 */
