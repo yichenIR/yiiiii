@@ -1,0 +1,249 @@
+/* 全域樣式 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding-top: 76px;
+    background-color: #f8f9fa;
+}
+
+/* 章節共用樣式 */
+.section-padding {
+    padding: 100px 0;
+}
+
+/* 導航欄樣式 */
+.navbar {
+    background-color: rgba(135, 100, 184, 0.95) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffd1dc !important;
+}
+
+/* 首頁英雄區塊 */
+.hero-section {
+    background: linear-gradient(rgba(135, 100, 184, 0.7), rgba(255, 209, 220, 0.7)), url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section p {
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* 團體介紹 */
+.group-info {
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.group-info h3 {
+    color: #8764b8;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.group-stats h4 {
+    font-size: 2rem;
+    color: #8764b8;
+    font-weight: bold;
+}
+
+/* 成員卡片輪播 */
+.swiper-container {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.member-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-10px);
+}
+
+.member-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.member-info {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #fff, #f8f4ff);
+}
+
+.member-info h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8764b8;
+}
+
+.member-info p {
+    color: #666;
+    margin: 5px 0;
+}
+
+/* 專輯卡片 */
+.album-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.album-card:hover {
+    transform: translateY(-10px);
+}
+
+.album-info {
+    padding: 20px;
+    background: linear-gradient(to bottom, #fff, #f8f4ff);
+}
+
+.album-info h4 {
+    color: #8764b8;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.track-list {
+    list-style: none;
+    padding: 0;
+}
+
+.track-list li {
+    padding: 8px 0;
+    color: #666;
+    border-bottom: 1px solid #eee;
+}
+
+.track-list li:last-child {
+    border-bottom: none;
+}
+
+/* 時間軸樣式 */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    position: relative;
+    border-left: 4px solid #8764b8;
+}
+
+.timeline-item .date {
+    color: #8764b8;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.timeline-item h4 {
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #8764b8;
+    color: white;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ffd1dc;
+    transform: scale(1.2);
+}
+
+/* Swiper 導航按鈕樣式 */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #8764b8 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #8764b8 !important;
+}
+
+/* 動畫效果 */
+[data-aos] {
+    opacity: 0;
+    transition-duration: 1000ms;
+}
+
+[data-aos].aos-animate {
+    opacity: 1;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 3rem;
+    }
+    
+    .hero-section p {
+        font-size: 1.2rem;
+    }
+    
+    .section-padding {
+        padding: 60px 0;
+    }
+    
+    .member-card {
+        margin: 0 10px;
+    }
+
+    .member-card img {
+        height: 300px;
+    }
+}
